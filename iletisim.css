@@ -1,4 +1,5 @@
-body {
+/*CSS Codes I Write for body Tags*/
+body { 
     background-color: black;
     margin: 0;
 	width: 100%;
@@ -9,16 +10,19 @@ body {
 	animation-direction: alternate;
 }
 
-hr.hrozellik { /*hr etiketi renk verme ve özellik verme*/
+/*CSS Codes I Write for hr Tags*/
+hr.hrozellik { 
     border: 1px solid rgb(9, 25, 245);
   }
 
+/*CSS Codes I Write for h1 Tags*/
 h1{
     text-align: center;
     color: green;
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*The CSS Codes I Wrote For The .button Class*/
 .button {
     background-color: #1c87c9;
     border: none;
@@ -32,12 +36,17 @@ h1{
     cursor: pointer;
 }
 
-@keyframes animeBG {
+@keyframes animeBG { /*Codes I Wrote To Make The Background a Transitional Color*/
     0% {background-position: 0%}
     100% {background-position: 100%}
 }
 
-::selection { /*metin seçme*/
-    background: rgb(0, 0, 0);
-    color:rgb(#fff);
+::selection { /*Select Text in Browsers*/
+    background: rgb(18, 211, 245);
+    color:rgb(rgb(7, 11, 226));
     }
+
+::-moz-selection{/*The Codes I Wrote To Select Text İn Mozilla Browser*/
+    background: rgb(18, 211, 245);
+    color:rgb(rgb(7, 11, 226));
+}

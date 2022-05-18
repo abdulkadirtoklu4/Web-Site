@@ -46,6 +46,24 @@ div{
     }
 
 .backpage{
-    background-color: blue;
-    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    background-color: green;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:link, a:visited { 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+ 
+ 
+a:hover, a:active {
+    background-color: green;
 }

@@ -1,3 +1,5 @@
+// belki lazım olabilir :).
+
 // html audio nesnesi
 var audio = $('audio');
 

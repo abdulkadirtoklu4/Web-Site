@@ -1,5 +1,6 @@
-/*Web Site External Css Dosyası*/
+/*Web Site External Css File*/
 
+/*Codes For The h1 Tag*/
 body {
     background-color:();
     margin: 0;
@@ -11,20 +12,27 @@ body {
 	animation-direction: alternate;
 }
 
-h1 { /*h1 etiketi Efektleri*/
-    font-style: oblique;
+/*Codes For The h1 Tag*/
+
+h1 { 
     text-align: center;
 }
 
-input[type="text"]:valid{ /*text için renk kodu*/
+/*Codes For The h1 Tag İs Over*/
+
+/*Coloring Code For Text İnput*/
+
+input[type="text"]:valid{ 
     outline:2px solid green;
 }
 
-input[type="text"]:invalid{ /*text için renk kodu*/
+input[type="text"]:invalid{ 
     outline:2px solid red;
 }
 
-  /*Tablo için css*/
+/*Coloring Code For Text İnput İs Over*/
+
+  /*CSS For Table (Knows Language)*/
 
 #diller {
     border-collapse: collapse;
@@ -57,13 +65,13 @@ input[type="text"]:invalid{ /*text için renk kodu*/
     text-align: center;
     }
 
-/*tablo için css bitti.*/
-
 table { 
 background-color: #fff;
 }
 
- /*hr etiketi renk verme ve özellik verme*/
+/*CSS For Table (Knows Language) İs Over.*/
+
+ /*For hr Tag Color and Width */
 
 hr.hrozellik {
     border: 1px solid rgb(9, 25, 245);
@@ -71,7 +79,7 @@ hr.hrozellik {
     width: 90%;
 }
 
-/*a etiketi efektleri*/
+/*Tag a Effects*/
 
 a:link, a:visited { 
     background-color: rgb(0, 0, 0);
@@ -87,12 +95,18 @@ a:hover, a:active {
     background-color: green;
 }
  
-/*a etiketi efektleri bitt*/
+/*Tag a Effects İs Over*/
 
-@keyframes animeBG { /*Arkaplan Efekti*/
-        0% {background-position: 0%}
-        100% {background-position: 100%}
-    } 
+/*Background Color (RGB)*/
+
+@keyframes animeBG { 
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+} 
+
+/*Background Color (RGB) İs Over*/
+
+/*CSS For List Elements*/
 
     ul {
         list-style-type: none;
@@ -127,18 +141,20 @@ a:hover, a:active {
         background-color: #111;
     }
     
+/*CSS For List Elements İs Over*/
+
 .active {
-background-color: #f39c12;
+    background-color: #f39c12;
 }
 
 ::selection { /*Metin Seçme*/
-background: rgb(18, 211, 245);
-color:rgb(rgb(7, 11, 226));
+    background: rgb(18, 211, 245);
+    color:rgb(rgb(7, 11, 226));
 }
 
 ::-moz-selection{
-background: rgb(18, 211, 245);
-color:rgb(rgb(7, 11, 226));
+    background: rgb(18, 211, 245);
+    color:rgb(rgb(7, 11, 226));
 } 
 
 /*Metin Seçme Bitti*/
