@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg, #000000, #ff0000, #23a6d5, #31f300);
+	background-size: 500% 500%;
+	animation: animeBG 15s ease infinite;
+	animation-direction: alternate;
+}
+
+hr.hrozellik { /*hr etiketi renk verme ve özellik verme*/
+    border: 1px solid rgb(9, 25, 245);
+  }
+
+h1{
+    text-align: center;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@keyframes animeBG {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+::selection { /*metin seçme*/
+    background: rgb(0, 0, 0);
+    color:rgb(#fff);
+    }

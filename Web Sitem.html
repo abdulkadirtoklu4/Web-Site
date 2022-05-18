@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Online,Online Oyun Oynama Siteleri,Oyun oynama,Arkadaşlarla oyun oynanabilecek siteler">
+    <title>Web Sitem</title>
+    <link rel="icon" href="icon.ico" type="image/icon type">
+    <link rel="stylesheet" href="web-sitem.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+</head>
+
+<body>
+
+    <a class="zaten-uye-misiniz" href="uye-giris.html">Zaten Üye Misiniz?</a>
+   
+    <audio loop>
+        
+        <source type="audio/mp3" src="Polozhenie.mp3">
+       
+    </audio>
+
+    <h1 style="color: red;">Yazılımcıların Kod Paylaşımı Yapabileceği ve Yazılıma Yeni Başlamış Kişilere Yardım Edebileceği Bir Platform Hazırlıyoruz!</h1>
+    
+    <hr class="hrozellik">
+    
+    <h1>Hoşgeldin!</h1>
+    
+    <hr class="hrozellik">
+    
+    <h2 style="text-align: center;">
+        YAKINDA DAHA FAZLASI GELECEK TAKİPTE KAL!
+    </h2>
+    
+    <div id="google_translate_element"></div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+    {pageLanguage: 'tr', includedLanguages: 'tr,en,ar,ru,de,au,at,bh,by,be,bo,br,dk,id,az,ac,am,an,aq,cl,dk'},
+    'google_translate_element'
+    );
+    }
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script>
+
+var inputBox = document.getElementById("inputBox");
+
+    var invalidChars = [
+      "-",
+      "+",
+      "e",
+    
+    ];
+    
+    inputBox.addEventListener("input", function() {
+      this.value = this.value.replace(/[e\+\-]/gi, "");
+    
+    });
+    
+    inputBox.addEventListener("keydown", function(e) {
+      if (invalidChars.includes(e.key)) {
+        e.preventDefault();
+      
+        }
+    
+    });
+    
+</script>
+
+    <h2>
+        Üye Kayıt Sayfası :
+    </h2>
+
+    <form action="">
+         
+        <p>
+             Ad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
+        </p>
+        
+        <p>
+            Soyad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
+        </p>
+        
+        <p>
+            Beni Hatırla <input type="checkbox">
+        </p>
+        
+        <p>
+            
+            Erkek <input type="radio" name="cinsiyet" required>
+            Kadın <input type="radio" name="cinsiyet" required>
+            Belirtmemeyi Tercih Ediyorum <input type="radio" name="cinsiyet" required>
+        
+        </p>
+
+        <p> Yaşadığınız Ülke: 
+
+            <select name="Countries">
+            <option selected disabled>Ülke Seçiniz</option>
+            <option value="">Turkey </option>
+            <option value="">England</option>
+            <option value="">US</option>
+            <option value="">Russia</option>
+            <option value="">Greece</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+
+            </select>
+
+        </p>
+        
+        <p> Yaşadığınız Şehir:
+            
+            <select name="Towns">
+                <option selected disabled>Şehir Seçiniz</option>
+                <option>ADANA</option>
+                <option>ADIYAMAN</option>
+                <option>AFYONKARAHİSAR</option>
+                <option>AĞRI</option>
+                <option>AMASYA</option>
+                <option>ANKARA</option>
+                <option>ANTALYA</option>
+                <option>ARTVİN</option>
+                <option>AYDIN</option>
+                <option>BALIKESİR</option>
+                <option>BİLECİK</option>
+                <option>BİNGÖL</option>
+                <option>BİTLİS</option>
+                <option>BOLU</option>
+                <option>BURDUR</option>
+                <option>BURSA</option>
+                <option>ÇANAKKALE</option>
+                <option>ÇANKIRI</option>
+                <option>ÇORUM</option>
+                <option>DENİZLİ</option>
+                <option>DİYARBAKIR</option>
+                <option>EDİRNE</option>
+                <option>ELAZIĞ</option>
+                <option>ERZİNCAN</option>
+                <option>ERZURUM</option>
+                <option>ESKİŞEHİR</option>
+                <option>GAZİANTEP</option>
+                <option>GİRESUN</option>
+                <option>GÜMÜŞHANE</option>
+                <option>HAKKARİ</option>
+                <option>HATAY</option>
+                <option>ISPARTA</option>
+                <option>MERSİN</option>
+                <option>İSTANBUL</option>
+                <option>İZMİR</option>
+                <option>KARS</option>
+                <option>KASTAMONU</option>
+                <option>KAYSERİ</option>
+                <option>KIRKLARELİ</option>
+                <option>KIRŞEHİR</option>
+                <option>KOCAELİ</option>
+                <option>KONYA</option>
+                <option>KÜTAHYA</option>
+                <option>MALATYA</option>
+                <option>MANİSA</option>
+                <option>KAHRAMANMARAŞ</option>
+                <option>MARDİN</option>
+                <option>MUĞLA</option>
+                <option>MUŞ</option>
+                <option>NEVŞEHİR</option>
+                <option>NİĞDE</option>
+                <option>ORDU</option>
+                <option>RİZE</option>
+                <option>SAKARYA</option>
+                <option>SAMSUN</option>
+                <option>SİİRT</option>
+                <option>SİNOP</option>
+                <option>SİVAS</option>
+                <option>TEKİRDAĞ</option>
+                <option>TOKAT</option>
+                <option>TRABZON</option>
+                <option>TUNCELİ</option>
+                <option>ŞANLIURFA</option>
+                <option>UŞAK</option>
+                <option>VAN</option>
+                <option>YOZGAT</option>
+                <option>ZONGULDAK</option>
+                <option>AKSARAY</option>
+                <option>BAYBURT</option>
+                <option>KARAMAN</option>
+                <option>KIRIKKALE</option>
+                <option>BATMAN</option>
+                <option>ŞIRNAK</option>
+                <option>BARTIN</option>
+                <option>ARDAHAN</option>
+                <option>IĞDIR</option>
+                <option>YALOVA</option>
+                <option>KARABÜK</option>
+                <option>KİLİS</option>
+                <option>OSMANİYE</option>
+                <option>DÜZCE</option>
+            
+            </select>
+        
+            <p>Telefon Numaranızı Giriniz: <input type="number" id="inputBox" name="telefon numarası" required> </p>
+        
+            <p>
+            
+            <label for="datemax">Doğum Tarihinizi Giriniz: </label>
+
+            <input type="date" id="datemax" name="datemax" max="19-12-31" placeholder="01-01-1980 Tarihi ve Sonrasında Doğumlu Olan Kişiler Web Sitemize Kayıt Olabilir!">
+        
+        </p> 
+         
+        <p>Mail Adresinizi Giriniz: <input style="color: rgb(25, 0, 255)" type="text" value="Mail Adresiniz" onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='Mail Adresiniz'}" onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}" required> </p>
+
+        
+        <p>
+            <table border="1" id="diller">
+                
+                <thead>
+                
+                    <tr>
+                  
+                        <th><strong><mark> Bildiğiniz Diller</mark></strong></th>
+                  
+                    </tr>
+                  
+                    <tr>
+                   
+                        <tr> <td>Python <input type="checkbox" name="Py"> </td> </tr>
+
+                        <tr> <td>C <input type="checkbox" name="c"> </td> </tr>
+
+                        <tr> <td>C++ <input type="checkbox" name="cpp"> </td> </tr>
+
+                        <tr> <td>C# <input type="checkbox" name="Csharp"> </td> </tr>
+                        
+                        <tr> <td>Go <input type="checkbox" name="Go"> </td> </tr>
+
+                        <tr> <td>Ruby <input type="checkbox" name="Ruby"> </td> </tr>
+
+                        <tr> <td>Flutter <input type="checkbox" name="Flutter"> </td> </tr>
+
+                        <tr> <td>Arduino <input type="checkbox" name="Arduino"> </td> </tr>
+
+                        <tr> <td>Java <input type="checkbox" name="Java"> </td> </tr>
+
+                        <tr> <td>PHP <input type="checkbox" name="PHP"> </td> </tr>
+
+                        <tr> <td>Visual Basic <input type="checkbox" name="Vbs"> </td> </tr>
+
+                        <tr> <td>Swift <input type="checkbox" name="Swift"> </td> </tr>
+
+                        <tr> <td>JavaScript <input type="checkbox" name="Js"> </td> </tr>
+
+                        <tr> <td>R <input type="checkbox" name="R"> </td> </tr>
+
+                        <tr> <td>Perl <input type="checkbox" name="Perl"> </td> </tr>
+
+                        <tr> <td>Pascal <input type="checkbox" name="Pascal"> </td> </tr>  
+
+                        <tr> <td>Delphi <input type="checkbox" name="Delphi"> </td> </tr>
+
+                        <tr> <td>Matlab <input type="checkbox" name="Matlab"> </td> </tr>
+
+                        <tr> <td>Ada <input type="checkbox" name="Ada"> </td> </tr>
+
+                        <tr> <td>Fortran <input type="checkbox" name="Fortran"> </td> </tr>
+
+                        <tr> <td>Cobol <input type="checkbox" name="Cobol"> </td> </tr>
+                        
+                        <tr> <td>Shell <input type="checkbox" name="Shell"> </td> </tr>
+
+                        <tr> <td>Cuda <input type="checkbox" name="Cuda"> </td> </tr>
+                        
+                        <tr> <td>ActionScript <input type="checkbox" name="ActionScript"> </td> </tr>
+
+                        <tr> <td>Ocaml <input type="checkbox" name="Ocaml"> </td> </tr>
+
+                        <tr> <td>Clojure <input type="checkbox" name="Clojure"> </td> </tr> 
+
+                        <tr> <td>Rust <input type="checkbox" name="Rust"> </td> </tr>
+
+                        <tr> <td>Scala <input type="checkbox" name="Scala"> </td> </tr>
+                    
+                        <tr> <td>Kotlin <input type="checkbox" name="Kotlin"> </td> </tr>
+
+                       <tr> <td>Assembly <input type="checkbox" name="Assembly"> </td> </tr> 
+
+                       <tr> <td>Brain Fuck <input type="checkbox" name="BrainFuck"> </td> </tr>
+                        
+                       <tr> <td>Julia <input type="checkbox" name="Julia"> </td> </tr>
+
+                       <tr> <td>Rebol <input type="checkbox" name="Rebol"> </td> </tr>
+
+                       <tr> <td>Access <input type="checkbox" name="Access"> </td> </tr>
+
+                       <tr> <td>FoxPro <input type="checkbox" name="FoxPro"> </td> </tr>
+
+                
+                </thead>
+               
+            </table>
+        
+        </p>
+
+        <input type="submit" value="Üyeliğimi Kaydet">
+        
+        <hr class="hrozellik">
+        
+    </form>
+    
+    <h1 style="font-style: initial; text-align: center; color: red;">BİZE ULAŞIN!</h1>
+      
+    <a href="iletisim.html">Mail Atmak İçin Tıklayın!</a>
+
+</body>
+
+</html>
