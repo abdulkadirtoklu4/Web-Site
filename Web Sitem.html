@@ -3,11 +3,11 @@
 <html>
 
 <head>
-    <meta charset="UTF-8"> <!--My Page's Default Language Standard-->
+    <meta charset="UTF-8"> <!--Page Default Language Standard-->
     <meta name="keywords" content="Online,Online Oyun Oynama Siteleri,Oyun oynama,Arkadaşlarla oyun oynanabilecek siteler"> <!--Keywords I Wrote To Appear İn The Front Row İn The Browser.-->
     <title>Hoşgeldin!</title> <!--Page Title-->
-    <link rel="icon" href="icon.ico" type="image/icon type"> <!--Icon File Of The Page-->
-    <link rel="stylesheet" href="web-sitem.css"> <!--Css File Of The Page-->
+    <link rel="icon" href="/icon.ico" type="image/icon type"> <!--Icon File Of The Page-->
+    <link rel="stylesheet" href="/CSS Files/web-sitem.css"> <!--Css File Of The Page-->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> <!--"meta" Tags I Haven't Covered Yet-->
 
 </head>
@@ -83,25 +83,27 @@ var inputBox = document.getElementById("inputBox");
 
     <form action="" method="post">
          
-        <!--name-->
+        <!--Person Name-->
         <p>
              Ad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
         </p>
         
-        <!--surname-->
+        <!--Person Surname-->
         <p>
             Soyad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
         </p>
         
-        <!--username-->
+        <!--Person Username-->
         <p>
             Kullanıcı Adı: <input type="text" pattern="a-za-0-9">
         </p>
 
+        <!--Remember Me Button-->
         <p>
             Beni Hatırla <input type="checkbox">
         </p>
         
+        <!--Gender Selection-->
         <p>
             
             Erkek <input type="radio" name="cinsiyet" required>
@@ -110,18 +112,18 @@ var inputBox = document.getElementById("inputBox");
         
         </p>
 
-        <!--Changing Cities by Selected Country (Not Done Yet :). -->
+        <!--Changing Cities by Selected Country; Not Done Yet :). -->
 
         <p> Yaşadığınız Ülke: 
 
             <select name="Countries">
-            <option selected disabled>Ülke Seçiniz</option>
-            <option value="">Turkey </option>
-            <option value="">England</option>
-            <option value="">US</option>
-            <option value="">Russia</option>
-            <option value="">Greece</option>
-            <option value=""></option>
+            <option selected disabled>Select Country</option>
+            <option value="">Türkiye - Türkiye</option>
+            <option value="">İngiltere - England</option>
+            <option value="">Amerika Birleşik Devletleri - US</option>
+            <option value="">Rusya - Russia</option>
+            <option value="">Yunanistan - Greece</option>
+            <option value="">Almanya - Germany</option>
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
@@ -345,7 +347,7 @@ var inputBox = document.getElementById("inputBox");
 
         <input type="file" id="dosya" accept="image/svg, image/ico, image/png, image/jpg, image/jpeg"">
 
-        <br><br>
+        <br> <br> <!--Move Down Two Lines-->
 
         <input type="submit" value="Üyeliğimi Kaydet">
         

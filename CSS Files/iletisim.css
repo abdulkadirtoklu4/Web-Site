@@ -8,6 +8,7 @@ body {
 	background-size: 500% 500%;
 	animation: animeBG 15s ease infinite;
 	animation-direction: alternate;
+    text-align: center;
 }
 
 /*CSS Codes I Write for hr Tags*/
@@ -49,4 +50,29 @@ h1{
 ::-moz-selection{/*The Codes I Wrote To Select Text İn Mozilla Browser*/
     background: rgb(18, 211, 245);
     color:rgb(rgb(7, 11, 226));
+}
+
+#orientation{
+    text-align: center;
+    font-size: 20px; color: gold;
+}
+
+a:link, a:visited { 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+ 
+ 
+a:hover, a:active {
+    background-color: green;
+}
+
+hr.hrozellik {
+    border: 1px solid rgb(9, 25, 245);
+    border: 10;
+    width: 90%;
 }
