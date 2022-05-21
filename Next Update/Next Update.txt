@@ -1,4 +1,4 @@
 Adaptation To Different Language:
 1- Dosyaları değiştirmek (main.html/main.css)
 2- İd/Class 
-3- 
+3- Üye girişi sayfasındaki inputların kayıt sayfası gibi yapılması

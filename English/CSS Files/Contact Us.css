@@ -37,22 +37,25 @@ h1{
     cursor: pointer;
 }
 
-@keyframes animeBG { /*Codes I Wrote To Make The Background a Transitional Color*/
+/*Codes I Wrote To Make The Background a Transitional Color*/
+@keyframes animeBG { 
     0% {background-position: 0%}
     100% {background-position: 100%}
 }
 
-::selection { /*Select Text in Browsers*/
+/*Tarayıcıların Metin Seçmesi İçin Uygulanan CSS Kodu*/
+::selection { 
     background: rgb(18, 211, 245);
     color:rgb(rgb(7, 11, 226));
     }
 
-::-moz-selection{/*The Codes I Wrote To Select Text İn Mozilla Browser*/
+/*Mozilla Taarayıcılarının Metin Seçmesi İçin Uygulanan CSS Kodu.*/
+::-moz-selection{
     background: rgb(18, 211, 245);
     color:rgb(rgb(7, 11, 226));
 }
 
-#orientation{
+#routing-text{
     text-align: center;
     font-size: 20px; color: gold;
 }
