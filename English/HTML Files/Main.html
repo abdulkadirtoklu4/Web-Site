@@ -11,7 +11,7 @@
     <meta name="keywords" content="">
     
     <!--Page Title-->
-    <title>Welcome!</title> 
+    <title>Sign Up!</title> 
     
     <!--Icon File Of The Page-->
     <link rel="icon" href="../../İcon Files/icon.ico" type="image/icon">
@@ -27,7 +27,7 @@
 <body>
 
     <!--Redirects Users Who Are Members To The Login Page.-->
-    <a class="zaten-uye-misiniz" href="../HTML Filesi/Member Login.html">Zaten Üye Misiniz?</a>
+    <a class="zaten-uye-misiniz" href="../HTML Filesi/Member Login.html">Already a Member?</a>
    
   <!--If I use it, it Will Help Me :).-->
     <audio loop>
@@ -41,7 +41,7 @@
     <hr class="property">
     
     <!--Welcome Text-->
-    <h1>Hoşgeldin!</h1>
+    <h1>Welcome!</h1>
     
     <hr class="property">
     
@@ -103,23 +103,23 @@ var inputBox = document.getElementById("inputBox");
          
         <!--Person Name-->
         <p>
-             Ad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
+             Name: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
         </p>
         
         <!--Person Surname-->
         <p>
-            Soyad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
+            Surname: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
         </p>
         
         <!--Person Username
         (username characters haven't been fully set yet, but they will be set in future releases!)-->
         <p>
-            Kullanıcı Adı: <input type="text" pattern="a-za-0-9">
+            Username: <input type="text" name="usern" pattern="a-za-0-9" required>
         </p>
 
         <!--Remember Me Button-->
         <p>
-            Beni Hatırla <input type="checkbox">
+            Remember Me! <input type="checkbox">
         </p>
         
         <!--Gender Selection-->
@@ -167,8 +167,9 @@ var inputBox = document.getElementById("inputBox");
 
         </p>
         
-        <p> Yaşadığınız Şehir:
-            
+        <p> The City </p>
+          
+        <p>
             <select name="Towns">
                 <option selected disabled>Şehir Seçiniz</option>
                 <option>ADANA</option>
@@ -254,6 +255,8 @@ var inputBox = document.getElementById("inputBox");
                 <option>DÜZCE</option>
             </select>
         
+        </p> 
+
             <!--Your Phone Number-->
             <p>Telefon Numaranızı Giriniz: <input type="number" id="inputBox" name="telefon numarası" required> </p>
         
@@ -264,21 +267,21 @@ var inputBox = document.getElementById("inputBox");
             <!--Born in Date-->
             <input type="date" id="datemax" name="datemax" max="" placeholder="Doğum Tarihinizi Yazın">
         
-        </p> 
+        
          
         <!--Mail Address Write-->
         <p>Mail Adresinizi Giriniz: <input style="color: rgb(25, 0, 255)" type="text" value="Mail Adresiniz" onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='Mail Adresiniz'}" onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}" required> </p>
 
         
         <p>
-            <table border="1" id="diller">
+            <table border="1" id="languages">
                 
                 <thead>
                 
                     <tr>
                   
                         <!--Choosing Known Languages-->
-                        <th> <strong> <mark> Bildiğiniz Diller</mark> </strong> </th>
+                        <th> <strong> <mark>Languages You Know</mark> </strong> </th>
                   
                     </tr>
                   
@@ -377,7 +380,7 @@ var inputBox = document.getElementById("inputBox");
     </form>
     
     <!--Feedback Page-->
-    <h1 style="font-style: initial; text-align: center; color: red;">BİZE ULAŞIN!</h1> 
+    <h1 class="contact-us">BİZE ULAŞIN!</h1> 
     
     <!---Referral Link-->
     <a href="/Turkhish/HTML Files/Contact Us.html">Mail Atmak İçin Tıklayın!</a>
