@@ -179,6 +179,7 @@ a:hover, a:active {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 }
 
 .dosya:hover, .dosya.active{
