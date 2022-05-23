@@ -3,96 +3,114 @@
 <html>
 
 <head>
-    <meta charset="UTF-8"> <!--Page Default Language Standard-->
-    <meta name="keywords" content="Online,Online Oyun Oynama Siteleri,Oyun oynama,Arkadaşlarla oyun oynanabilecek siteler"> <!--Keywords I Wrote To Appear İn The Front Row İn The Browser.-->
-    <title>Hoşgeldin!</title> <!--Page Title-->
-    <link rel="icon" href="../../İcon Files/icon.ico" type="image/icon"> <!--Icon File Of The Page-->
-    <link rel="stylesheet" href="../CSS Files/Main.css"> <!--Css File Of The Page-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> <!--"meta" Tags I Haven't Covered Yet-->
+    <meta charset="UTF-8">
+    <!--Page Default Language Standard-->
+    <meta name="keywords"
+        content="Online,Online Oyun Oynama Siteleri,Oyun oynama,Arkadaşlarla oyun oynanabilecek siteler">
+    <!--Keywords I Wrote To Appear İn The Front Row İn The Browser.-->
+    <title>Hoşgeldin!</title>
+    <!--Page Title-->
+    <link rel="icon" href="../../İcon Files/icon.ico" type="image/icon">
+    <!--Icon File Of The Page-->
+    <link rel="stylesheet" href="../CSS_Files/Main.css">
+    <!--Css File Of The Page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!--"meta" Tags I Haven't Covered Yet-->
 
 </head>
 
 <body>
 
     <!--Redirects Users Who Are Members To The Login Page.-->
-    <a class="zaten-uye-misiniz" href="/Turkhish/HTML Files/Member Login.html">Zaten Üye Misiniz?</a>
-   
-  <!--If I use it, it Will Help Me :).-->
+    <a class="zaten-uye-misiniz" href="../HTML_Files/Member Login.html">Zaten Üye Misiniz?</a>
+
+    <!--If I use it, it Will Help Me :).-->
     <audio loop>
-        
+
         <source type="audio/mp3" src="">
-       
+
     </audio>
 
-    <h1 style="color: red;">Yazılımcıların Kod Paylaşımı Yapabileceği ve Yazılıma Yeni Başlamış Kişilere Yardım Edebileceği Bir Platform Hazırlıyoruz!</h1>
-    
+    <h1 style="color: red;">Yazılımcıların Kod Paylaşımı Yapabileceği ve Yazılıma Yeni Başlamış Kişilere Yardım
+        Edebileceği Bir Platform Hazırlıyoruz!</h1>
+
     <hr class="hrozellik">
-    
+
     <!--Welcome Text-->
     <h1>Hoşgeldin!</h1>
-    
+
     <hr class="hrozellik">
-    
+
     <h2 style="text-align: center;">
         YAKINDA DAHA FAZLASI GELECEK TAKİPTE KAL!
     </h2>
-    
+
     <!--Codes For Translating İn Different Languages-->
     <div id="google_translate_element"></div>
-<script type="text/javascript">
-    function googleTranslateElementInit() {
-    new google.translate.TranslateElement(
-    {pageLanguage: 'tr', includedLanguages: 'tr,en,ar,ru,de,au,at,bh,by,be,bo,br,dk,id,az,ac,am,an,aq,cl,dk'},
-    'google_translate_element'
-    );
-    }
-</script>
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<!--For The İnput Object-->
-<script>
+    <script type="text/javascript">
 
-var inputBox = document.getElementById("inputBox");
+        function googleTranslateElementInit() {
 
-    var invalidChars = [
-      "-",
-      "+",
-      "e",
-    
-    ];
-    
-    inputBox.addEventListener("input", function() {
-      this.value = this.value.replace(/[e\+\-]/gi, "");
-    
-    });
-    
-    inputBox.addEventListener("keydown", function(e) {
-      if (invalidChars.includes(e.key)) {
-        e.preventDefault();
-      
+            new google.translate.TranslateElement(
+
+                { pageLanguage: 'tr', includedLanguages: 'tr,en,ar,ru,de,au,at,bh,by,be,bo,br,dk,id,az,ac,am,an,aq,cl,dk' },
+
+                'google_translate_element'
+
+            );
+
         }
-    
-    });
-    
-</script>
 
-<!--Registration Form Section Has Started-->
+    </script>
+
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!--For The İnput Object-->
+    <script>
+
+        var inputBox = document.getElementById("inputBox");
+
+        var invalidChars = [
+            "-",
+            "+",
+            "e",
+
+        ];
+
+        inputBox.addEventListener("input", function () {
+            this.value = this.value.replace(/[e\+\-]/gi, "");
+
+        });
+
+        inputBox.addEventListener("keydown", function (e) {
+            if (invalidChars.includes(e.key)) {
+                e.preventDefault();
+
+            }
+
+        });
+
+    </script>
+
+    <!--Registration Form Section Has Started-->
     <h2>
         Üye Kayıt Sayfası :
     </h2>
 
     <form action="" method="post">
-         
+
         <!--Person Name-->
         <p>
-             Ad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
+            Ad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
         </p>
-        
+
         <!--Person Surname-->
         <p>
             Soyad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
         </p>
-        
+
         <!--Person Username
         (username characters haven't been fully set yet, but they will be set in future releases!)-->
         <p>
@@ -103,23 +121,23 @@ var inputBox = document.getElementById("inputBox");
         <p>
             Beni Hatırla <input type="checkbox">
         </p>
-        
+
         <!--Gender Selection-->
         <p>
-            
+
             Erkek <input type="radio" name="cinsiyet" required>
             Kadın <input type="radio" name="cinsiyet" required>
             Belirtmemeyi Tercih Ediyorum <input type="radio" name="cinsiyet" required>
-        
+
         </p>
 
         <!--Changing Cities by Selected Country; Not Done Yet :). -->
 
-        <p> Yaşadığınız Ülke: 
+        <p> Yaşadığınız Ülke:
 
             <!--Countries aren't quite finished yet, when they're done there will be plenty of country options!-->
             <select name="Countries">
-                
+
                 <option selected disabled>Select Country</option>
                 <option value="">Türkiye - Türkiye</option>
                 <option value="">İngiltere - England</option>
@@ -148,9 +166,9 @@ var inputBox = document.getElementById("inputBox");
             </select>
 
         </p>
-        
+
         <p> Yaşadığınız Şehir:
-            
+
             <select name="Towns">
                 <option selected disabled>Şehir Seçiniz</option>
                 <option>ADANA</option>
@@ -235,112 +253,185 @@ var inputBox = document.getElementById("inputBox");
                 <option>OSMANİYE</option>
                 <option>DÜZCE</option>
             </select>
-        
+
             <!--Your Phone Number-->
-            <p>Telefon Numaranızı Giriniz: <input type="number" id="inputBox" name="telefon numarası" required> </p>
-        
-            <p>
-            
+        <p>Telefon Numaranızı Giriniz: <input type="number" id="inputBox" name="telefon numarası" required> </p>
+
+        <p>
+
             <label for="datemax">Doğum Tarihinizi Giriniz: </label>
 
             <!--Born in Date-->
             <input type="date" id="datemax" name="datemax" max="" placeholder="Doğum Tarihinizi Yazın">
-        
-        </p> 
-         
+
+        </p>
+
         <!--Mail Address Write-->
-        <p>Mail Adresinizi Giriniz: <input style="color: rgb(25, 0, 255)" type="text" value="Mail Adresiniz" onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='Mail Adresiniz'}" onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}" required> </p>
+        <p>Mail Adresinizi Giriniz: <input style="color: rgb(25, 0, 255)" type="text" value="Mail Adresiniz"
+                onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='Mail Adresiniz'}"
+                onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}"
+                required> </p>
 
-        
+
         <p>
-            <table border="1" id="diller">
-                
-                <thead>
-                
-                    <tr>
-                  
-                        <!--Choosing Known Languages-->
-                        <th> <strong> <mark> Bildiğiniz Diller</mark> </strong> </th>
-                  
-                    </tr>
-                  
-                    <tr>
-                   
-                        <tr> <td>Python <input type="checkbox" name="Py"> </td> </tr>
+        <table border="1" id="diller">
 
-                        <tr> <td>C <input type="checkbox" name="c"> </td> </tr>
+            <thead>
 
-                        <tr> <td>C++ <input type="checkbox" name="cpp"> </td> </tr>
+                <tr>
 
-                        <tr> <td>C# <input type="checkbox" name="Csharp"> </td> </tr>
-                        
-                        <tr> <td>Go <input type="checkbox" name="Go"> </td> </tr>
+                    <!--Choosing Known Languages-->
+                    <th> <strong> <mark> Bildiğiniz Diller</mark> </strong> </th>
 
-                        <tr> <td>Ruby <input type="checkbox" name="Ruby"> </td> </tr>
+                </tr>
 
-                        <tr> <td>Flutter <input type="checkbox" name="Flutter"> </td> </tr>
+                <tr>
 
-                        <tr> <td>Arduino <input type="checkbox" name="Arduino"> </td> </tr>
+                <tr>
+                    <td>Python <input type="checkbox" name="Py"> </td>
+                </tr>
 
-                        <tr> <td>Java <input type="checkbox" name="Java"> </td> </tr>
+                <tr>
+                    <td>C <input type="checkbox" name="c"> </td>
+                </tr>
 
-                        <tr> <td>PHP <input type="checkbox" name="PHP"> </td> </tr>
+                <tr>
+                    <td>C++ <input type="checkbox" name="cpp"> </td>
+                </tr>
 
-                        <tr> <td>Visual Basic <input type="checkbox" name="Vbs"> </td> </tr>
+                <tr>
+                    <td>C# <input type="checkbox" name="Csharp"> </td>
+                </tr>
 
-                        <tr> <td>Swift <input type="checkbox" name="Swift"> </td> </tr>
+                <tr>
+                    <td>Go <input type="checkbox" name="Go"> </td>
+                </tr>
 
-                        <tr> <td>JavaScript <input type="checkbox" name="Js"> </td> </tr>
+                <tr>
+                    <td>Ruby <input type="checkbox" name="Ruby"> </td>
+                </tr>
 
-                        <tr> <td>R <input type="checkbox" name="R"> </td> </tr>
+                <tr>
+                    <td>Flutter <input type="checkbox" name="Flutter"> </td>
+                </tr>
 
-                        <tr> <td>Perl <input type="checkbox" name="Perl"> </td> </tr>
+                <tr>
+                    <td>Arduino <input type="checkbox" name="Arduino"> </td>
+                </tr>
 
-                        <tr> <td>Pascal <input type="checkbox" name="Pascal"> </td> </tr>  
+                <tr>
+                    <td>Java <input type="checkbox" name="Java"> </td>
+                </tr>
 
-                        <tr> <td>Delphi <input type="checkbox" name="Delphi"> </td> </tr>
+                <tr>
+                    <td>PHP <input type="checkbox" name="PHP"> </td>
+                </tr>
 
-                        <tr> <td>Matlab <input type="checkbox" name="Matlab"> </td> </tr>
+                <tr>
+                    <td>Visual Basic <input type="checkbox" name="Vbs"> </td>
+                </tr>
 
-                        <tr> <td>Ada <input type="checkbox" name="Ada"> </td> </tr>
+                <tr>
+                    <td>Swift <input type="checkbox" name="Swift"> </td>
+                </tr>
 
-                        <tr> <td>Fortran <input type="checkbox" name="Fortran"> </td> </tr>
+                <tr>
+                    <td>JavaScript <input type="checkbox" name="Js"> </td>
+                </tr>
 
-                        <tr> <td>Cobol <input type="checkbox" name="Cobol"> </td> </tr>
-                        
-                        <tr> <td>Shell <input type="checkbox" name="Shell"> </td> </tr>
+                <tr>
+                    <td>R <input type="checkbox" name="R"> </td>
+                </tr>
 
-                        <tr> <td>Cuda <input type="checkbox" name="Cuda"> </td> </tr>
-                        
-                        <tr> <td>ActionScript <input type="checkbox" name="ActionScript"> </td> </tr>
+                <tr>
+                    <td>Perl <input type="checkbox" name="Perl"> </td>
+                </tr>
 
-                        <tr> <td>Ocaml <input type="checkbox" name="Ocaml"> </td> </tr>
+                <tr>
+                    <td>Pascal <input type="checkbox" name="Pascal"> </td>
+                </tr>
 
-                        <tr> <td>Clojure <input type="checkbox" name="Clojure"> </td> </tr> 
+                <tr>
+                    <td>Delphi <input type="checkbox" name="Delphi"> </td>
+                </tr>
 
-                        <tr> <td>Rust <input type="checkbox" name="Rust"> </td> </tr>
+                <tr>
+                    <td>Matlab <input type="checkbox" name="Matlab"> </td>
+                </tr>
 
-                        <tr> <td>Scala <input type="checkbox" name="Scala"> </td> </tr>
-                    
-                        <tr> <td>Kotlin <input type="checkbox" name="Kotlin"> </td> </tr>
+                <tr>
+                    <td>Ada <input type="checkbox" name="Ada"> </td>
+                </tr>
 
-                       <tr> <td>Assembly <input type="checkbox" name="Assembly"> </td> </tr> 
+                <tr>
+                    <td>Fortran <input type="checkbox" name="Fortran"> </td>
+                </tr>
 
-                       <tr> <td>Brain Fuck <input type="checkbox" name="BrainFuck"> </td> </tr>
-                        
-                       <tr> <td>Julia <input type="checkbox" name="Julia"> </td> </tr>
+                <tr>
+                    <td>Cobol <input type="checkbox" name="Cobol"> </td>
+                </tr>
 
-                       <tr> <td>Rebol <input type="checkbox" name="Rebol"> </td> </tr>
+                <tr>
+                    <td>Shell <input type="checkbox" name="Shell"> </td>
+                </tr>
 
-                       <tr> <td>Access <input type="checkbox" name="Access"> </td> </tr>
+                <tr>
+                    <td>Cuda <input type="checkbox" name="Cuda"> </td>
+                </tr>
 
-                       <tr> <td>FoxPro <input type="checkbox" name="FoxPro"> </td> </tr>
+                <tr>
+                    <td>ActionScript <input type="checkbox" name="ActionScript"> </td>
+                </tr>
 
-                
-                </thead>
-               
-            </table>
-        
+                <tr>
+                    <td>Ocaml <input type="checkbox" name="Ocaml"> </td>
+                </tr>
+
+                <tr>
+                    <td>Clojure <input type="checkbox" name="Clojure"> </td>
+                </tr>
+
+                <tr>
+                    <td>Rust <input type="checkbox" name="Rust"> </td>
+                </tr>
+
+                <tr>
+                    <td>Scala <input type="checkbox" name="Scala"> </td>
+                </tr>
+
+                <tr>
+                    <td>Kotlin <input type="checkbox" name="Kotlin"> </td>
+                </tr>
+
+                <tr>
+                    <td>Assembly <input type="checkbox" name="Assembly"> </td>
+                </tr>
+
+                <tr>
+                    <td>Brain Fuck <input type="checkbox" name="BrainFuck"> </td>
+                </tr>
+
+                <tr>
+                    <td>Julia <input type="checkbox" name="Julia"> </td>
+                </tr>
+
+                <tr>
+                    <td>Rebol <input type="checkbox" name="Rebol"> </td>
+                </tr>
+
+                <tr>
+                    <td>Access <input type="checkbox" name="Access"> </td>
+                </tr>
+
+                <tr>
+                    <td>FoxPro <input type="checkbox" name="FoxPro"> </td>
+                </tr>
+
+
+            </thead>
+
+        </table>
+
         </p>
 
 
@@ -350,17 +441,18 @@ var inputBox = document.getElementById("inputBox");
 
         <input type="file" class="dosya" accept="image/svg, image/ico, image/png, image/jpg, image/jpeg">
 
-        <br> <br> <!--Move Down Two Lines-->
+        <br> <br>
+        <!--Move Down Two Lines-->
 
         <input type="submit" value="Üyeliğimi Kaydet">
-        
+
         <hr class="hrozellik">
-        
+
     </form>
-    
+
     <!--Feedback Page-->
-    <h1 style="font-style: initial; text-align: center; color: red;">BİZE ULAŞIN!</h1> 
-    
+    <h1 style="font-style: initial; text-align: center; color: red;">BİZE ULAŞIN!</h1>
+
     <!---Referral Link-->
     <a href="/Turkhish/HTML Files/Contact Us.html">Mail Atmak İçin Tıklayın!</a>
 
