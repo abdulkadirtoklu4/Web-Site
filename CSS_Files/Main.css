@@ -1,6 +1,7 @@
 /*Web Site External Css File*/
+/*Web Site İçin External CSS Dosyası*/
 
-/*Codes For The h1 Tag*/
+/*CSS Codes For body*/
 body {
     background-color:();
     margin: 0;
@@ -12,15 +13,21 @@ body {
 	animation-direction: alternate;
 }
 
+/*CSS Codes For body İs Over.*/
+/*body İçin CSS Kodları Bitti.*/
+
 /*Codes For The h1 Tag*/
+/*h1 Etiketi İçin CSS Kodları*/
 
 h1 { 
     text-align: center;
 }
 
 /*Codes For The h1 Tag İs Over*/
+/*h1 Etiketi İçin CSS Kodları Bitti*/
 
 /*Coloring Code For Text İnput*/
+/*input İçin CSS Renk Kodları*/
 
 input[type="text"]:valid{ 
     outline:2px solid green;
@@ -30,33 +37,35 @@ input[type="text"]:invalid{
     outline:2px solid red;
 }
 
-/*Coloring Code For Text İnput İs Over*/
+/*Coloring Code For Text input İs Over*/
+/*input İçin CSS Renk Kodları Bitti.*/
 
-/*CSS For Table (Knows Language)*/
+/*CSS For Table For Knows Language*/
+/*Bilinen Diller Tablosu İçin CSS Kodları*/
 
-#languages {
+#diller {
     border-collapse: collapse;
-    width: 70%;
+    width: 90%;
     margin-left:auto; 
     margin-right:auto;
     }
      
-#languages td, #languages th {
+#diller td, #diller th {
     border: 1px solid #ddd;
     padding: 8px;
     }
      
-#languages tr:nth-child(even){
+#diller tr:nth-child(even){
     background-color: #f2f2f2;
       
     }
      
-#languages tr:hover {
+#diller tr:hover {
     background-color: #2ecc71;
     color:#fff;
     }
      
-#languages th {
+#diller th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
@@ -73,7 +82,7 @@ background-color: #fff;
 
  /*For hr Tag Color and Width.*/
 
-hr.property {
+hr.hrozellik {
     border: 1px solid rgb(9, 25, 245);
     border: 10;
     width: 90%;
@@ -144,21 +153,29 @@ a:hover, a:active {
     }
     
 /*CSS For List Elements İs Over*/
+/*Lite Elemanları İçin CSS Bitti*/
 
 .active {
     background-color: #f39c12;
 }
 
-::selection { /*Metin Seçme*/
+/*Text Selection*/
+/*Metin Seçme*/
+
+::selection {
     background: rgb(18, 211, 245);
     color:rgb(rgb(7, 11, 226));
 }
+
+/*Text Selection For Mozilla*/
+/*Mozilla İçin Metin Seçme*/
 
 ::-moz-selection{
     background: rgb(18, 211, 245);
     color:rgb(rgb(7, 11, 226));
 } 
 
+/*Text Selection İs Over*/
 /*Metin Seçme Bitti*/
 
 #uye-girisi{ 
@@ -179,19 +196,10 @@ a:hover, a:active {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 }
 
 .dosya:hover, .dosya.active{
     background-color: green;
 }
-
 /*File Selection İs Over.*/
-
-/* For "Contact Us" Text Code*/
-.contact-us{
-    font-style: initial;
-    text-align: center;
-    color: red;
-}
-
-/*For "Contact Us" Text Code İs Over*/
