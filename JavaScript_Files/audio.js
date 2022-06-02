@@ -1,15 +1,19 @@
 // belki lazım olabilir :).
+//Maybe I Need It :).
 
-// html audio nesnesi
+// HTML Audio Nesnesi
+// HTML Audio Object
 var audio = $('audio');
 
-// oynatma olayı
+// Oynatma Olayı
+// Playback Event 
 $('#play').on('click', function(e){
     audio[0].play();
     e.preventDefault();
 });
 
-// durdurma olayı
+// Durdurma Olayı
+// Stop Event
 $('#pause').on('click', function(e){
     audio[0].stop();
     e.preventDefault();
@@ -20,7 +24,8 @@ audio.bind('timeupdate', function(){
    console.log('ses oynatılıyor..');
 });
 
-// saniyeyi çeviren fonksiyon
+// Saniyeyi Çeviren Fonksiyon
+// Dial Per Second Function
 function readableDuration(seconds) {
     sec = Math.floor( seconds );    
     min = Math.floor( sec / 60 );
@@ -28,43 +33,6 @@ function readableDuration(seconds) {
     sec = Math.floor( sec % 60 );
     sec = sec >= 10 ? sec : '0' + sec;    
     return min + ':' + sec;
-}
-
-// html audio nesnesi
-var audio = $('#audio');
-
-// oynatma olayı
-$('#play').on('click', function(e){
-    audio[0].play();
-    e.preventDefault();
-});
-
-// durdurma olayı
-$('#pause').on('click', function(e){
-    audio[0].pause();
-    e.preventDefault();
-});
-
-// hazır olduğunda toplam süreyi yazdır
-audio.bind('canplay', function(){
-    var duration = audio[0].duration;
-    $('.duration').text( readableDuration(duration) );
-});
-
-// değişiklik olduğunda mevcut süreyi yazdır
-audio.bind('timeupdate', function(){
-    var current = audio[0].currentTime;
-    $('.current').text( readableDuration(current) );
-});
-
-// saniyeyi çeviren fonksiyon
-function readableDuration(seconds) {
-    sec = Math.floor( seconds );    
-    min = Math.floor( sec / 60 );
-    min = min >= 10 ? min : "0" + min;    
-    sec = Math.floor( sec % 60 );
-    sec = sec >= 10 ? sec : "0" + sec;    
-    return min + ":" + sec;
 }
 
 // html audio nesnesi

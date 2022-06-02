@@ -3,14 +3,14 @@
 
 /*CSS Codes For body*/
 body {
-    background-color:();
+    background-color: ();
     margin: 0;
-	width: 100%;
-	height: 100vh;
-	background: linear-gradient(45deg, #000000, #ff0000, #23a6d5, #31f300, #6900f3);
-	background-size: 500% 500%;
-	animation: animeBG 15s ease infinite;
-	animation-direction: alternate;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #000000, #ff0000, #23a6d5, #31f300, #6900f3);
+    background-size: 500% 500%;
+    animation: animeBG 15s ease infinite;
+    animation-direction: alternate;
 }
 
 /*CSS Codes For body İs Over.*/
@@ -19,7 +19,7 @@ body {
 /*Codes For The h1 Tag*/
 /*h1 Etiketi İçin CSS Kodları*/
 
-h1 { 
+h1 {
     text-align: center;
 }
 
@@ -29,12 +29,12 @@ h1 {
 /*Coloring Code For Text İnput*/
 /*input İçin CSS Renk Kodları*/
 
-input[type="text"]:valid{ 
-    outline:2px solid green;
+input[type="text"]:valid {
+    outline: 2px solid green;
 }
 
-input[type="text"]:invalid{ 
-    outline:2px solid red;
+input[type="text"]:invalid {
+    outline: 2px solid red;
 }
 
 /*Coloring Code For Text input İs Over*/
@@ -46,25 +46,26 @@ input[type="text"]:invalid{
 #diller {
     border-collapse: collapse;
     width: 90%;
-    margin-left:auto; 
-    margin-right:auto;
-    }
-     
-#diller td, #diller th {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#diller td,
+#diller th {
     border: 1px solid #ddd;
     padding: 8px;
-    }
-     
-#diller tr:nth-child(even){
+}
+
+#diller tr:nth-child(even) {
     background-color: #f2f2f2;
-      
-    }
-     
+
+}
+
 #diller tr:hover {
     background-color: #2ecc71;
-    color:#fff;
-    }
-     
+    color: #fff;
+}
+
 #diller th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -72,15 +73,15 @@ input[type="text"]:invalid{
     background-color: #2c3e50;
     color: white;
     text-align: center;
-    }
+}
 
-table { 
-background-color: #fff;
+table {
+    background-color: #fff;
 }
 
 /*CSS For Table (Knows Language) İs Over.*/
 
- /*For hr Tag Color and Width.*/
+/*For hr Tag Color and Width.*/
 
 hr.hrozellik {
     border: 1px solid rgb(9, 25, 245);
@@ -92,7 +93,8 @@ hr.hrozellik {
 
 /*Tag a Effects*/
 
-a:link, a:visited { 
+a:link,
+a:visited {
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 14px 25px;
@@ -100,58 +102,64 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
 }
- 
- 
-a:hover, a:active {
+
+
+a:hover,
+a:active {
     background-color: green;
 }
- 
+
 /*Tag a Effects İs Over*/
 
 /*Background Color (RGB)*/
 
-@keyframes animeBG { 
-    0% {background-position: 0%}
-    100% {background-position: 100%}
-} 
+@keyframes animeBG {
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 100%
+    }
+}
 
 /*Background Color (RGB) İs Over*/
 
 /*CSS For List Elements*/
 
-    ul {
-        list-style-type: none;
-    
-        margin: 0;
-    
-        padding: 0;
-    
-        overflow: hidden;
-    
-        background-color: transparent;
-    }
-    
-    li {
-        float: left;
-    }
-    
-    li a {
-        display: block;
-    
-        color: white;
-    
-        text-align: center;
-    
-        padding: 14px 16px;
-    
-        text-decoration: none;
-    }
-    
-    li a:hover:not(.active) {
-    
-        background-color: #111;
-    }
-    
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+
+    background-color: #111;
+}
+
 /*CSS For List Elements İs Over*/
 /*Lite Elemanları İçin CSS Bitti*/
 
@@ -164,32 +172,35 @@ a:hover, a:active {
 
 ::selection {
     background: rgb(18, 211, 245);
-    color:rgb(rgb(7, 11, 226));
+    color: rgb(rgb(7, 11, 226));
 }
 
 /*Text Selection For Mozilla*/
 /*Mozilla İçin Metin Seçme*/
 
-::-moz-selection{
+::-moz-selection {
     background: rgb(18, 211, 245);
-    color:rgb(rgb(7, 11, 226));
-} 
+    color: rgb(rgb(7, 11, 226));
+}
 
 /*Text Selection İs Over*/
 /*Metin Seçme Bitti*/
 
-#uye-girisi{ 
+#uye-girisi {
+
     background-color: rgb(0, 0, 0);
     background-color: green;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+
 }
 
 /*File Selection*/
 
-.dosya{
+.dosya {
+
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 14px 25px;
@@ -197,9 +208,25 @@ a:hover, a:active {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+
 }
 
-.dosya:hover, .dosya.active{
+.dosya:hover,
+.dosya.active {
+
     background-color: green;
+
 }
+
 /*File Selection İs Over.*/
+
+.tasarimci {
+
+    color: red;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.link-tasarimci{
+    text-align: center;
+}
