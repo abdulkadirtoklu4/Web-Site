@@ -101,13 +101,13 @@ hr.hrozellik {
 
 }
 
-.telegram{
+.telegram {
 
     padding-left: 40px;
 
 }
 
-.whatsapp{
+.whatsapp {
 
     padding-left: 25px;
 
@@ -133,14 +133,14 @@ hr.hrozellik {
 
 }
 
-.telegram-text{
+.telegram-text {
 
     padding-left: 65px;
     color: red;
 
 }
 
-.whatsapp-text{
+.whatsapp-text {
 
     padding-left: 80px;
     color: red;
@@ -151,7 +151,7 @@ hr.hrozellik {
 
     border-left: 1px solid #000000;
     height: 150px;
-    
+
 }
 
 /*Sorunun Başladığı Kısım
@@ -172,4 +172,3 @@ a:active {
 }
 
 */
-
