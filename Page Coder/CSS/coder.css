@@ -64,10 +64,15 @@ hr.hrozellik {
 /*hr Etiketleri İçin Renk ve Boyut Ayarı Bitti.*/
 
 .tanitma{
- font-size: 175%;
+    color: gold;
+    font-size: 175%;
 }
 
-/*.aciklama{}*/
+.aciklama{
+
+    margin: 0px 1px 0px 2px;
+
+}
 
 .iletisim{
 

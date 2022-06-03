@@ -36,6 +36,7 @@ function readableDuration(seconds) {
 }
 
 // html audio nesnesi
+// html audio object
 var audio = $('#audio'),
     trackbar = $('.trackbar'),
     percent = $('.percent'),
