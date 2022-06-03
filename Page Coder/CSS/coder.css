@@ -101,10 +101,21 @@ hr.hrozellik {
 
 }
 
+.telegram{
+
+    padding-left: 40px;
+
+}
+
+.whatsapp{
+
+    padding-left: 25px;
+
+}
+
 .github-text {
 
     padding-left: 35px;
-
     color: red;
 }
 
@@ -122,6 +133,20 @@ hr.hrozellik {
 
 }
 
+.telegram-text{
+
+    padding-left: 65px;
+    color: red;
+
+}
+
+.whatsapp-text{
+
+    padding-left: 80px;
+    color: red;
+
+}
+
 .cizgi {
 
     border-left: 1px solid #000000;
@@ -129,8 +154,8 @@ hr.hrozellik {
     
 }
 
-/*Sorunun Başladığı Kısım*/
-.homepage, a:link,
+/*Sorunun Başladığı Kısım
+li a a:link,
 a:visited {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -146,6 +171,5 @@ a:active {
     background-color: green;
 }
 
+*/
 
-
-/*I'm sure, I will later on :).*/
