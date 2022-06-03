@@ -224,16 +224,13 @@ li a:hover:not(.active) {
 
     color: red;
     text-align: center;
-<<<<<<< HEAD
     font-weight: bold;
 }
 
 .link-tasarimci {
-=======
     font-weight: bold; 
 }
 
 .link-tasarimci{
->>>>>>> 0a1caaff65a19d787cfe5efa3fd4bccb6ba5e02e
     text-align: center;
 }
