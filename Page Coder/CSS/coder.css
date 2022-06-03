@@ -129,7 +129,7 @@ hr.hrozellik {
     
 }
 
-
+/*Sorunun Başladığı Kısım*/
 .homepage, a:link,
 a:visited {
     background-color: rgb(0, 0, 0);
@@ -145,5 +145,7 @@ a:visited {
 a:active {
     background-color: green;
 }
+
+
 
 /*I'm sure, I will later on :).*/
