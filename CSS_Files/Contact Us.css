@@ -1,0 +1,81 @@
+/*CSS Codes I Write for body Tags*/
+body { 
+    background-color: black;
+    margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg, #000000, #ff0000, #23a6d5, #31f300);
+	background-size: 500% 500%;
+	animation: animeBG 15s ease infinite;
+	animation-direction: alternate;
+    text-align: center;
+}
+
+/*CSS Codes I Write for hr Tags*/
+hr.hrozellik { 
+    border: 1px solid rgb(9, 25, 245);
+  }
+
+/*CSS Codes I Write for h1 Tags*/
+h1{
+    text-align: center;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*The CSS Codes I Wrote For The .button Class*/
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*Codes I Wrote To Make The Background a Transitional Color*/
+@keyframes animeBG { 
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+/*Tarayıcıların Metin Seçmesi İçin Uygulanan CSS Kodu*/
+::selection { 
+    background: rgb(18, 211, 245);
+    color:rgb(rgb(7, 11, 226));
+    }
+
+/*Mozilla Taarayıcılarının Metin Seçmesi İçin Uygulanan CSS Kodu.*/
+::-moz-selection{
+    background: rgb(18, 211, 245);
+    color:rgb(rgb(7, 11, 226));
+}
+
+#routing-text{
+    text-align: center;
+    font-size: 20px; color: gold;
+}
+
+a:link, a:visited { 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+ 
+ 
+a:hover, a:active {
+    background-color: green;
+}
+
+hr.hrozellik {
+    border: 1px solid rgb(9, 25, 245);
+    border: 10;
+    width: 90%;
+}
