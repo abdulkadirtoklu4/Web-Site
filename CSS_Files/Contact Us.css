@@ -49,7 +49,7 @@ h1{
     color:rgb(rgb(7, 11, 226));
     }
 
-/*Mozilla Taarayıcılarının Metin Seçmesi İçin Uygulanan CSS Kodu.*/
+/*Mozilla Tarayıcılarının Metin Seçmesi İçin Uygulanan CSS Kodu.*/
 ::-moz-selection{
     background: rgb(18, 211, 245);
     color:rgb(rgb(7, 11, 226));
@@ -64,7 +64,6 @@ a:link, a:visited {
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 14px 25px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
 }
@@ -85,4 +84,12 @@ hr.hrozellik {
     width: 200px;
     height: 25px;
     font-size: 20px;
+    text-align: center;
+
+}
+
+.coder{
+
+    margin-left: -1500px;
+
 }
