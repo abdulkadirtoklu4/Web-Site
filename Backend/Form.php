@@ -1,2 +1,1 @@
-/*Henüz değil :)*/
-#Not Yet :)
+/*Coming Soon/
