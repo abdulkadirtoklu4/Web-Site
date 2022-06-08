@@ -13,7 +13,7 @@
         content="">
 
     <!--Page Title-->
-    <title>Sign Up!</title>
+    <title>Welcome!</title>
 
     <!--Icon File Of The Page-->
     <link rel="icon" href="../Icon/icon.ico" type="image/icon">
@@ -49,7 +49,7 @@
     <hr class="property">
 
     <h2 style="text-align: center;">
-        YAKINDA DAHA FAZLASI GELECEK TAKİPTE KAL!
+        MORE COMING SOON FOLLOW!
     </h2>
 
     <!--Codes For Translating İn Different Languages-->
@@ -118,7 +118,7 @@
         <!--Person Username
         (username characters haven't been fully set yet, but they will be set in future releases!)-->
         <p>
-            Username: <input type="text" name="usern" pattern="a-za-0-9" required>
+            Username: <input type="text" name="usern" pattern="[a-za-0-9]*" required>
         </p>
 
         <!--Remember Me Button-->
@@ -137,19 +137,19 @@
 
         <!--Changing Cities by Selected Country; Not Done Yet :). -->
 
-        <p> Yaşadığınız Ülke:
+        <p> Country of Residence:
 
             <!--Countries aren't quite finished yet, when they're done there will be plenty of country options!-->
             <select name="Countries">
 
                 <option selected disabled>Select Country</option>
-                <option value="">Türkiye - Türkiye</option>
-                <option value="">İngiltere - England</option>
-                <option value="">Amerika Birleşik Devletleri - US</option>
-                <option value="">Rusya - Russia</option>
-                <option value="">Yunanistan - Greece</option>
-                <option value="">Almanya - Germany</option>
-                <option value="">Finlandiya</option>
+                <option value="turkiye">Türkiye - Türkiye</option>
+                <option value="england">England</option>
+                <option value="abd">ABD - US</option>
+                <option value="russia">Rusya - Russia</option>
+                <option value="greece">Yunanistan - Greece</option>
+                <option value="germany">Almanya - Germany</option>
+                <option value="finland">Finlandiya</option>
                 <option value="">Belçika</option>
                 <option value="">Hollanda</option>
                 <option value="">Fransa</option>
@@ -262,11 +262,11 @@
         </p>
 
         <!--Your Phone Number-->
-        <p>Telefon Numaranızı Giriniz: <input type="number" id="inputBox" name="telefon numarası" required> </p>
+        <p>Enter Your Phone Number: <input type="number" id="inputBox" name="telefon numarası" required> </p>
 
         <p>
 
-            <label for="datemax">Doğum Tarihinizi Giriniz: </label>
+            <label for="datemax">Enter Your Date of Birth: </label>
 
             <!--Born in Date-->
             <input type="date" id="datemax" name="datemax" max="" placeholder="Doğum Tarihinizi Yazın">
@@ -274,8 +274,8 @@
 
 
             <!--Mail Address Write-->
-        <p>Mail Adresinizi Giriniz: <input style="color: rgb(25, 0, 255)" type="text" value="Mail Adresiniz"
-                onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='Mail Adresiniz'}"
+        <p>Enter Your E-Mail Address: <input style="color: rgb(25, 0, 255)" type="text" value="Mail Adresiniz"
+                onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='E-Mail Address'}"
                 onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}"
                 required> </p>
 
@@ -442,9 +442,9 @@
         </p>
 
 
-        <h1 style="color: red;">Son Olarak!</h1>
+        <h1 style="color: red;">Finally!</h1>
 
-        <h3 style="color: blue; text-align:center;">Bir profil fotoğrafı Eklemek İsteyebilirsin!</h3>
+        <h3 style="color: blue; text-align:center;">You May Want to Add a Profile Photo!</h3>
 
         <input type="file" class="dosya" accept="image/svg, image/ico, image/png, image/jpg, image/jpeg">
 
@@ -455,7 +455,7 @@
 
         <input type="reset" value="Reset">
 
-        <hr class="property">
+        <hr class="hrozellik">
 
     </form>
 
@@ -463,9 +463,13 @@
     <h1 class="iletisim">CONTACT US!</h1>
 
     <!---Referral Link-->
-    <a href="../English/Contact_Us.html">Mail Atmak İçin Tıklayın!</a>
+    <a href="../English/Contact_Us.html">Send to Me Email!</a>
 
-    <a class="link-tasarimci">Bu sayfanın </a>
+    <hr class="hrozellik">
+
+    <h1 class="tasarimci">What This Page's Coder?</h1>
+
+    <a href="../Page Coder/HTML/coder-en.html" class="link-tasarimci">My Biographies</a>
 
 </body>
 
