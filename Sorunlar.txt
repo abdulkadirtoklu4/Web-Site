@@ -1,0 +1,4 @@
+Main.html dosyalarında "Kullanıcı Adı" adlı input kodunda, sayfanın ingilizce versiyonunda karakter girildikçe kırmızıdan yeşile dönmesi.
+Olmaması gereken ise; Türkçe sayfada bahsedilen input'un default olarak kırmızı değil yeşil olması.
+
+Main.html dosyalarında e-mail adresleri istenirken input '@' karakteri girilmeden yeşil olmamalı ve veritabananına gitmeden sayfa içinde hata vermelidir.
