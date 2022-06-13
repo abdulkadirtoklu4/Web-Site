@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 
-<!--lang İndicates What Language the Page is Written İn.-->
 <html lang="en">
+<!--Its is Page Which Language Wrote Indicate.-->
 
 <head>
 
-    <!--Page Default Language Standard-->
     <meta charset="UTF-8">
+    <!--Page Default Language Standard-->
 
-    <!--Keywords I Wrote To Appear İn The Front Row İn The Browser.-->
     <meta name="keywords" 
         content="">
+    <!--Keywords I Wrote To Appear İn The Front Row İn The Browser.-->
 
-    <!--Page Title-->
     <title>Welcome!</title>
+    <!--Page Title-->
 
-    <!--Icon File Of The Page-->
     <link rel="icon" href="../Icon/icon.ico" type="image/icon">
+    <!--Icon File Of The Page-->
 
-    <!--Css File Of The Page-->
     <link rel="stylesheet" href="../CSS/Main.css">
+    <!--Css File Of The Page-->
 
-    <!--"meta" Tags I Haven't Covered Yet-->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!--"meta" Tags I Haven't Covered Yet-->
 
 </head>
 
@@ -63,9 +63,12 @@
 
                 { pageLanguage: 'tr', includedLanguages: 'tr,en,ar,ru,de,au,at,bh,by,be,bo,br,dk,id,az,ac,am,an,aq,cl,dk' },
 
-                'google_translate_element');
+                'google_translate_element'
+                
+            );
 
         }
+
     </script>
 
     <script type="text/javascript"
@@ -89,7 +92,9 @@
         });
 
         inputBox.addEventListener("keydown", function (e) {
+         
             if (invalidChars.includes(e.key)) {
+         
                 e.preventDefault();
 
             }
@@ -117,6 +122,7 @@
 
         <!--Person Username
         (username characters haven't been fully set yet, but they will be set in future releases!)-->
+       
         <p>
             Username: <input type="text" name="usern" pattern="[a-za-0-9]*" required>
         </p>
@@ -279,8 +285,8 @@
                 onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}"
                 required> </p>
 
-
         <p>
+        
         <table border="1" id="diller">
 
             <thead>
@@ -434,13 +440,11 @@
                     <td>FoxPro <input type="checkbox" name="FoxPro"> </td>
                 </tr>
 
-
             </thead>
 
         </table>
 
         </p>
-
 
         <h1 style="color: red;">Finally!</h1>
 
@@ -451,7 +455,11 @@
         <br> <br>
         <!--Move Down Two Lines-->
 
+        <!--Submit User-->
         <input type="submit" value="Üyeliğimi Kaydet">
+
+        <br> <br>
+        <!--Move Down Two Lines-->
 
         <input type="reset" value="Reset">
 

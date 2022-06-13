@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 
-<!--lang İndicates What Language the Page is Written İn.-->
 <html lang="tr">
+<!--Sayfanın Hangi Dilde Yazıldığının Belirtilmesi.-->
 
 <head>
 
     <meta charset="UTF-8">
-    <!--Page Default Language Standard-->
+    <!--Standart Yazı Standardı.-->
 
     <meta name="keywords"
         content="Online,Online Oyun Oynama Siteleri,Oyun oynama,Arkadaşlarla oyun oynanabilecek siteler">
-    <!--Keywords I Wrote To Appear İn The Front Row İn The Browser.-->
+    <!--Tarayıcıların Sayfayı Daha İyi Tanımasını Sağlar-->
 
     <title>Hoşgeldin!</title>
-    <!--Page Title-->
+    <!--Sayfa Başlığı-->
 
     <link rel="icon" href="../../Icon/icon.ico" type="image/icon">
-    <!--Icon File Of The Page-->
+    <!--Sayanını İkon Dosyası.-->
 
     <link rel="stylesheet" href="../../CSS/Main.css">
-    <!--Css File Of The Page-->
+    <!--Sayfanın Css Dosyası-->
 
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <!--"meta" Tags I Haven't Covered Yet-->
@@ -28,10 +28,9 @@
 
 <body>
 
-    <!--Redirects Users Who Are Members To The Login Page.-->
+    <!--Üye Olan Kullanıcıları Giriş Sayfasına Yönlendirir.-->
     <a class="zaten-uye-misiniz" href="../HTML_Files/Member_Login.html">Zaten Üye Misiniz?</a>
 
-    <!--audio Code is Used to Add Audio to the Page and Listen to to.-->
     <!--If I use it, it Will Help Me :).-->
     <audio loop>
 
@@ -53,7 +52,7 @@
         YAKINDA DAHA FAZLASI GELECEK TAKİPTE KAL!
     </h2>
 
-    <!--Codes For Translating İn Different Languages-->
+    <!--Sayfada Çeviri Yapılabilmesi İçin-->
     <div id="google_translate_element"></div>
 
     <script type="text/javascript">
@@ -93,7 +92,9 @@
         });
 
         inputBox.addEventListener("keydown", function (e) {
+           
             if (invalidChars.includes(e.key)) {
+           
                 e.preventDefault();
 
             }
@@ -102,26 +103,27 @@
 
     </script>
 
-    <!--Registration Form Section Has Started-->
+    <!--Kayıt Formu Başladı-->
     <h2>
         Üye Kayıt Sayfası :
     </h2>
 
-    <form action="../../Backend/Form.php" method="post" enctype="multipart/form-data">
+    <form action="../Backend/Form.php" method="post" enctype="multipart/form-data">
 
-        <!--Person Name-->
+        <!--Kişinin Adı-->
         <p>
             Ad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
         </p>
 
-        <!--Person Surname-->
+        <!--Kişinin Soyadı-->
         <p>
             Soyad: <input type="text" pattern="[A-Za-zöçİğüÖÇĞÜşŞı]*" required>
         </p>
 
         <!--Person Username
         (username characters haven't been fully set yet, but they will be set in future releases!)-->
-        <p>
+
+       <p>
             Kullanıcı Adı: <input type="text" name="usern" pattern="[a-za-0-9]*">
         </p>
 
@@ -175,8 +177,9 @@
 
         </p>
 
-        <p> Yaşadığınız Şehir:
+        <p> Yaşadığınız Şehir: </p>
 
+        <p>
             <select name="Towns">
                 <option selected disabled>Şehir Seçiniz</option>
                 <option>ADANA</option>
@@ -262,7 +265,9 @@
                 <option>DÜZCE</option>
             </select>
 
-            <!--Telefon Numarası-->
+        </p>
+
+        <!--Telefon Numarası-->
         <p>Telefon Numaranızı Giriniz: <input type="number" id="inputBox" name="telefon numarası" required> </p>
 
         <p>
@@ -280,8 +285,8 @@
                 onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}"
                 required> </p>
 
-
         <p>
+
         <table border="1" id="diller">
 
             <thead>
@@ -289,7 +294,7 @@
                 <tr>
 
                     <!--Choosing Known Languages-->
-                    <th> <strong> <mark> Bildiğiniz Diller</mark> </strong> </th>
+                    <th> <strong> <mark>Bildiğiniz Diller</mark> </strong> </th>
 
                 </tr>
 
@@ -435,13 +440,11 @@
                     <td>FoxPro <input type="checkbox" name="FoxPro"> </td>
                 </tr>
 
-
             </thead>
 
         </table>
 
         </p>
-
 
         <h1 style="color: red;">Son Olarak!</h1>
 
@@ -474,7 +477,7 @@
 
     <h1 class="tasarimci">Bu Sayfanın Tasarımcısı Kimdir?</h1>
 
-    <a href="../../Page Coder/HTML/coder-tr.html" class="link-tasarimci">Benim Biyorafimm</a>
+    <a href="../../Page Coder/HTML/coder-tr.html" class="link-tasarimci">Benim Biyorafim</a>
 
 </body>
 
