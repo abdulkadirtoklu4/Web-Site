@@ -13,7 +13,7 @@ Hızlı öğrenen ve kolay unutmayan biriyim, araştırma azmim beni rakiplerimi
 İlerideki hedeflerim için her gün durmadan yola devam ediyorum.
 
 
-#English
+# English
 
 ## Hi!
 
