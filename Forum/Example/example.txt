@@ -1,0 +1,11 @@
+TÜRKÇE - TURKISH
+
+Bu klasör, deneme için oluşturulmuş olup daha sonradan silinecektir.
+Bunun amacı henüz yazmadığımız APİ'mizi test etmek ve kullanıcılara daha iyi bir deneyim sunabilmektir.
+Bu klasörde fotoğraflar bulunacak olup, örnek kişiler ve örnek isimler de bulunacaktır.
+
+İNGİLİZCE - ENGLİSH
+
+This folder was created for experimentation and will be deleted later.
+The purpose of this is to test our API, which we have not yet written, and to be able to provide a better experience to users.
+This folder will contain photos, as well as sample contacts and sample names.

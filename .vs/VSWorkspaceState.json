@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CSS"
+    "\\CSS",
+    "\\JavaScript",
+    "\\Page Coder",
+    "\\Page Coder\\CSS",
+    "\\Page Coder\\HTML"
   ],
-  "SelectedNode": "\\CSS\\Main.css",
+  "SelectedNode": "\\JavaScript\\audio.js",
   "PreviewInSolutionExplorer": false
 }
