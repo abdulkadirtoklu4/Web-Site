@@ -1,4 +1,5 @@
 1- Anasayfa tasarımı.
 2- Form verilerinin sorunsuz bir şekilde veritabanına iletilmesi.
-3- Varsa SQL Injection açıklarının kapatılması.
-4- Sayfalarda güncel tarihin gösterilmesi. Ör/ Cumartesi 4 Haziran 2022
+3- Raw SQL kullanılması
+4- Sayfalarda güncel tarihin gösterilmesi. Ör/ Cumartesi 4 Haziran 2022.
+5- Ülke Seçiminde Ülke Arayabilme.

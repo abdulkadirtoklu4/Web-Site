@@ -75,7 +75,7 @@
         src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!--For The İnput Object-->
-    <script>
+    <script type="text/javascript">
 
         var inputBox = document.getElementById("inputBox");
 
@@ -133,11 +133,14 @@
         </p>
 
         <!--Gender Selection-->
-        <p>
+        <p aria-required="true">
 
-            Erkek <input type="radio" name="erkek" required>
-            Kadın <input type="radio" name="kadın" required>
-            Belirtmemeyi Tercih Ediyorum <input type="radio" name="cinsiyet" required>
+        <input type="radio" name="Cinsiyet" value="erkek">
+        <label for="erkek">Erkek</label>
+        <input type="radio" name="Cinsiyet" value="kadin">
+        <label for="kadin">Kadın</label>
+        <input type="radio" name="Cinsiyet" value="belirtmemek">
+        <label for="belirtmemek">Belirtmek İstemiyorum</label>
 
         </p>
 
@@ -165,13 +168,13 @@
                 <option value="india">Hindistan - India</option>
                 <option value="greece">Yunanistan - Greece</option>
                 <option value="denmark">Danimarka - Denmark</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="" selected disabled></option>
+                <option value="" selected disabled></option>
+                <option value="" selected disabled></option>
+                <option value="" selected disabled></option>
+                <option value="" selected disabled></option>
+                <option value="" selected disabled></option>
+                <option value="" selected disabled></option>
 
             </select>
 
