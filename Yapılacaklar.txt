@@ -3,3 +3,4 @@
 3- Raw SQL kullanılması
 4- Sayfalarda güncel tarihin gösterilmesi. Ör/ Cumartesi 4 Haziran 2022.
 5- Ülke Seçiminde Ülke Arayabilme.
+6- Dil Seçimlerinde Dil Arayabilme.
