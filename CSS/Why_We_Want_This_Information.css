@@ -7,6 +7,7 @@ body {
     background-size: 500% 500%;
     animation: animeBG 15s ease infinite;
     animation-direction: alternate;
+    text-align: center;
 }
 
 @keyframes animeBG {
@@ -79,4 +80,8 @@ h1{
     text-align: center;
     font-size: large;
     font-family: monospace;
+}
+
+.pages{
+    margin-left: 1%;
 }
