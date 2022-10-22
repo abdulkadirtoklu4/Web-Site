@@ -1,0 +1,1 @@
+When requesting e-mail addresses in Main.html files, the input should not be green without entering the '@' character and should give an error within the page without going to the database.

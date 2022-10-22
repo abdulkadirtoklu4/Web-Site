@@ -37,6 +37,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
     
     <script type="text/javascript" src="../../JavaScript/Wristwatch.js"></script>
+
+    <!--E-Mail Kontrolü-->
+    <script src="../../JavaScript/E-Mail_Control.js"></script>
     
     <!--Saat Gösterilmesi İçin Eklenen Div-->
     <div class='time-frame'>
@@ -123,7 +126,7 @@
         Üye Kayıt Sayfası :
     </h2>
 
-    <form action="../Backend/Form.php" method="post" enctype="multipart/form-data">
+    <form id="form_id" method="post" action="../../Backend/Form.php" onsubmit="javascript:return validate('form_id','email');" enctype="multipart/form-data">
 
         <!--Kişinin Adı-->
         <p>
@@ -301,7 +304,7 @@
         <p>Mail Adresinizi Giriniz: <input style="color: rgb(25, 0, 255)" type="text" value="Mail Adresiniz"
                 onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='Mail Adresiniz'}"
                 onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}"
-                required> </p>
+                id="email" name="email" required> </p>
 
         <p>
 
@@ -474,7 +477,7 @@
         <!--Move Down Two Lines-->
 
         <!--Member Save Button-->
-        <input type="submit" value="Üyeliğimi Kaydet">
+        <input type="submit" onclick="kontrolet()" value="Üyeliğimi Kaydet">
 
         <br> <br>
         <!--İki Satır Aşağıya Alma-->
