@@ -29,7 +29,7 @@ hr.hrozellik {
 
 }
 
-a:link,
+a.link,
 a:visited {
 
     background-color: rgb(0, 0, 0);
@@ -48,3 +48,44 @@ a:active {
 
 }
 
+/*Box Model*/
+div.question, div.message,
+div.person{
+    background-color: transparent;
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin: 20px;
+}
+
+#box-model{
+    margin: 1 auto 1 auto;
+    display: table;
+}
+
+
+.message{
+    color: #000000;
+    font-size: 15px;
+}
+
+.question{
+ color : #000000
+}
+
+hr{
+    border: 1px solid rgb(9, 25, 245);
+    border: 10;
+    width: 90%;
+}
+
+.ForumHaber{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+}
