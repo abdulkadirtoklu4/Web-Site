@@ -1,7 +1,7 @@
-1- Homepage design.
-2- Seamless transmission of form data to the database.
-3- Using Raw SQL
-4- Showing the current date on the pages. Ex/ Saturday 4 June 2022.
-5- Ability to Search for a Country in Country Selection.
-6- Ability to search for language in language choices.
-7- Adding Date and Time to All Pages.
+1- Smooth Transmission of Form Data to the Database.
+2- Using Raw SQL.
+3- Ability to Search For Lountries in Country Selection.
+4- Ability to Search For Language in Language Choices.
+5- People's Private Pages.
+6- 6- Using Meta Tags.
+7- Using Scroll Bar.

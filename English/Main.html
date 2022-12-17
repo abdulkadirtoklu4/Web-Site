@@ -291,21 +291,16 @@
         <!--Your Phone Number-->
         <p>Enter Your Phone Number: <input type="number" id="number" name="telefon numarası" required> </p>
 
-        <p>
+        <label for="datemax">Enter Your Date of Birth: </label>
 
-            <label for="datemax">Enter Your Date of Birth: </label>
+        <!--Born in Date-->
+        <input type="date" id="datemax" name="datemax" max="" placeholder="Doğum Tarihinizi Yazın">
 
-            <!--Born in Date-->
-            <input type="date" id="datemax" name="datemax" max="" placeholder="Doğum Tarihinizi Yazın">
-
-
-
-            <!--Mail Address Write-->
+        <!--Mail Address Write-->
         <p>Enter Your E-Mail Address: <input style="color: rgb(25, 0, 255)" type="text" value="Mail Adresiniz"
-                onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='E-Mail Address'}"
-                onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}"
-                id="email" name="email" required> </p>
-
+            onblur="if(this.value == '') { this.style.color='rgb(25, 0, 255)'; this.value='E-Mail Address'}"
+            onfocus="if (this.value == 'Mail Adresiniz') {this.style.color='rgb(25, 0, 255)'; this.value=''}"
+            id="email" name="email" required> </p>
         <p>
         
         <table border="1" id="diller">

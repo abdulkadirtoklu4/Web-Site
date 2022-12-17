@@ -1,0 +1,176 @@
+body {
+    background-color: ();
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #000000, #ff0000, #23a6d5, #31f300, #6900f3);
+    background-size: 500% 500%;
+    animation: animeBG 15s ease infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animeBG {
+
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 100%
+    }
+
+}
+
+.select{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    overflow: hidden;
+} 
+
+.image{
+    display: block;
+    margin: auto;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.photo{
+    position:absolute;
+    display: block;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -150px;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.page{
+    margin: auto;
+    background-color: #ffffff;
+    width: 80%;
+    overflow: hidden;
+}
+
+.secenekler{
+    list-style: none;
+    display: block;
+}
+
+.secenekler li{
+    display: inline;
+    margin: auto;
+    position: relative;
+}
+
+a:link,
+a:visited {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: green;
+}
+
+#engelleButton{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 16px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 0px;
+    cursor: pointer;
+}
+
+#engelleButton:hover{
+    background-color: green;
+}
+
+.secenekler>li{
+    margin-top: auto;
+}
+
+.search{
+    float: right;
+    overflow: hidden;    
+}
+
+hr{
+    border: 1px solid rgb(9, 25, 245);
+    border: 10;
+    width: 90%;
+}
+
+::selection {
+
+    background: rgb(18, 211, 245);
+    color: rgb(rgb(7, 11, 226));
+
+}
+
+/*Text Selection For Mozilla*/
+/*Mozilla İçin Metin Seçme*/
+
+::-moz-selection {
+    
+    background: rgb(18, 211, 245);
+    color: rgb(rgb(7, 11, 226));
+
+}
+
+.gonderi{
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    width: 60%;
+    border-color: #000000;   
+}
+
+.yuvarlak{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ic{
+    display: flex;
+}
+
+.baslik{
+    margin-top: 10px;
+    font-size: xx-large;
+}
+
+.post{
+    margin-left: 150px;
+}
+
+.aksiyon{
+    cursor: pointer;
+    text-align: center;
+}
+
+.repo{
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(20, 30, 39);
+    width: 500px;
+    height: 200px;
+}
+
+.repo-text{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #ffffff;
+}
