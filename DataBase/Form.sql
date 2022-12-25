@@ -1,2 +1,1 @@
-SELECT * FROM
---Coming Soon
+/*Coming Soon*/
